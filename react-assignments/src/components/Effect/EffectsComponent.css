@@ -1,0 +1,61 @@
+/* General container styling */
+div {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;    
+    background-color: #f9f9f9;    
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styling */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* List styling */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  /* Hover effect for list items */
+  li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Character image styling */
+  img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    background-color: #eee;
+    object-fit: cover;
+  }
+  
+  /* Text styling */
+  li span {
+    color: #555;
+    font-size: 14px;
+  }
+  
+  li strong {
+    font-size: 16px;
+    color: #000;
+  }
+  
