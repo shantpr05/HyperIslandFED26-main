@@ -23,7 +23,7 @@ function App() {
       <Routes>
         <Route
           path="/PropsComponent"
-          element={<PropsComponent name={person.name} info={person.info} />}
+          element={<PropsComponent person={person} />}
         />
         <Route path="/EffectsComponent" element={<EffectsComponent />} />
         <Route path="/MyStateComponent" element={<MyStateComponent />} />

@@ -4,7 +4,7 @@ function PropsComponent(props) {
   return (
     <>
       <h2>Welcome {props.person.name}!</h2>
-      <p>{props.person.info.age}</p>
+      <p>{props.person.info.name}</p>
       {Object.keys(props.person.info).map((key) => (
         <div key={key}>
           <h3>{key}</h3>
